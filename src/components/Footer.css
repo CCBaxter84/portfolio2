@@ -1,0 +1,13 @@
+footer {
+  background-color: lightsteelblue;
+  color: indigo;
+  height: 150px;
+  width: 100%;
+  position: absolute;
+  left: 0;
+}
+
+.contact-info {
+  text-align: center;
+  margin: 0 auto;
+}

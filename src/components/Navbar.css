@@ -1,0 +1,10 @@
+.navbar {
+  display: flex;
+  justify-content: flex-end;
+}
+
+.navbar > a {
+  text-decoration: none;
+  color: blue;
+  font-family: Georgia, 'Times New Roman', Times, serif;
+}

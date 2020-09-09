@@ -1,0 +1,88 @@
+.title-card-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin: 20px;
+  width: 350px;
+  height: 400px;
+}
+
+.title-and-description {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+  height: 100px;
+  margin-bottom: 10px;
+}
+
+.gif {
+  width: 360px;
+  height: 225px;
+}
+
+.title-card-container > article {
+  display: flex;
+  justify-content: space-around;
+  width: 100%;
+}
+
+.title-card-container > article > ul {
+  display: flex;
+  flex-direction: column;
+}
+
+.title-card {
+  position: relative;
+  background-color: transparent;
+  perspective: 1000px;
+  height: 230px;
+  width: 400px;
+}
+
+.title-card-inner {
+  position: relative;
+  height: 100%;
+  width: 100%;
+  transition: 0.8s;
+  transform-style: preserve-3d;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.title-card:hover .title-card-inner {
+  transform: rotateY(180deg);
+}
+
+.title-card-front, .title-card-back {
+  position: absolute;
+  backface-visibility: hidden;
+}
+
+.title-card-back {
+  transform: rotateY(180deg);
+  background-color: cyan;
+  height: 220px;
+  width: 360px;
+  text-align: center;
+  border-radius: 10px;
+  border: 1px solid indigo;
+  box-shadow: 0px 0px 20px indigo;
+}
+
+.text-box {
+  position: relative;
+  margin-top: 20%;
+  color: indigo;
+}
+
+.text-box > a {
+  text-decoration: none;
+}
+
+.tools {
+  height: 60px;
+  margin: 0 auto;
+  font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
