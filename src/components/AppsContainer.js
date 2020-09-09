@@ -42,12 +42,12 @@ function AppsContainer() {
         <AppTileCard
           app={starWarsJeopardy}
           title='Star Wars Jeopardy!'
-          desc='Two player variation of Jeopardy! game show with vanilla JavaScript'
+          desc='Two player variation of Jeopardy! game show with JavaScript'
           tools={['JavaScript', 'HTML', 'CSS']}/>
         <AppTileCard
           app={rockPaperScissors}
           title='Paper Rock Scissors'
-          desc='Player vs computer game in vanilla JavaScript'
+          desc='Player vs computer game in JavaScript'
           tools={['JavaScript', 'HTML', 'CSS']}/>
       </section>
   </main>
