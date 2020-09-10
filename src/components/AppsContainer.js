@@ -12,7 +12,6 @@ function AppsContainer() {
           <h1>My Applications</h1>
           <p>Here's a snapshot of some of my best projects</p>
         </article>
-
       </section>
       <section class='apps-container'>
         <AppTileCard info={shoppingInfo}/>
