@@ -54,7 +54,7 @@ function AppsContainer() {
     title: 'Paper Rock Scissors',
     desc: 'Player vs computer game in JavaScript',
     tools: ['JavaScript', 'HTML', 'CSS'],
-    link: 'www.duckduckgo.com',
+    link: 'https://ccbaxter84.github.io/Rock-Paper-Scissors-JavaScript/',
     gitHub: 'https://github.com/CCBaxter84/Rock-Paper-Scissors-JavaScript'
   };
   return (
