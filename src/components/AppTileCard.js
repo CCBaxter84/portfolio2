@@ -2,25 +2,23 @@ import React from 'react';
 import './AppTileCard.css';
 
 function AppTileCard(props) {
-
-
   return (
     <section class='title-card-container'>
       <article class='title-and-description'>
-        <h3>{props.title}</h3>
-        <em>{props.desc}</em>
+        <h3>{props.info.title}</h3>
+        <em>{props.info.desc}</em>
       </article>
       <section class='title-card'>
         <section class='title-card-inner'>
           <article class='title-card-front'>
-            <img src={props.app} alt='Shopping List' class='gif'/>
+            <img src={props.info.name} alt='Shopping List' class='gif'/>
           </article>
           <article class='title-card-back'>
             <article class='text-box'>
-              <a href='https://www.google.com'>
+              <a href={props.info.link}>
                 <h3>Open Application</h3>
               </a>
-              <a href='https://www.duckduckgo.com'>
+              <a href={props.info.gitHub}>
                 <h4>Source Code</h4>
               </a>
             </article>
@@ -29,10 +27,10 @@ function AppTileCard(props) {
       </section>
       <article class='tools'>
         <ul>
-          {props.tools.slice(0, 3).map(tool => <li>{tool}</li>)}
+          {props.info.tools.slice(0, 3).map(tool => <li>{tool}</li>)}
         </ul>
-        {props.tools.length > 3 && <ul>
-          {props.tools.slice(3).map(tool => <li>{tool}</li>)}
+        {props.info.tools.length > 3 && <ul>
+          {props.info.tools.slice(3).map(tool => <li>{tool}</li>)}
         </ul>}
       </article>
     </section>
