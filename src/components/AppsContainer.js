@@ -30,7 +30,7 @@ function AppsContainer() {
     title: 'Puppy Photo Collage',
     desc: 'Front-end React.js photo collage using React Router',
     tools: ['React', 'React Router', 'CSS'],
-    link: 'www.duckduckgo.com',
+    link: 'https://ccbaxter84.github.io/Puppies---React-Router/',
     gitHub: 'https://github.com/CCBaxter84/Puppies---React-Router'
   };
   const toDoInfo = {
