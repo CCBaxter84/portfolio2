@@ -46,7 +46,7 @@ function AppsContainer() {
     title: 'Star Wars Jeopardy!',
     desc: 'Two player variation of Jeopardy! game show with JavaScript',
     tools: ['JavaScript', 'HTML', 'CSS'],
-    link: 'www.duckduckgo.com',
+    link: 'https://ccbaxter84.github.io/Star-Wars-Jeopardy-JavaScript/',
     gitHub: 'https://github.com/CCBaxter84/Star-Wars-Jeopardy-JavaScript'
   };
   const rockInfo = {
