@@ -1,7 +1,6 @@
 import React from 'react';
 import AppTileCard from './AppTileCard';
 import './AppsContainer.css';
-
 import appsInfo from './appsInfo.js'
 
 function AppsContainer() {
