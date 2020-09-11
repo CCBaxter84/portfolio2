@@ -18,7 +18,7 @@ const appsInfo = {
     name: historyQuiz,
     title: 'History Quiz',
     desc: 'Front-end React.js multiple choice quiz',
-    tools: ['React', 'CSS'],
+    tools: ['React', 'React Context', 'React Hooks', 'CSS'],
     link: 'https://ccbaxter84.github.io/US-History-Quiz-React/',
     gitHub: 'https://github.com/CCBaxter84/US-History-Quiz-React'
   },
