@@ -34,7 +34,7 @@ const appsInfo = {
     name: toDoApp,
     title: 'To Do List',
     desc: 'Front-end React.js productivity web app',
-    tools: ['React', 'CSS'],
+    tools: ['React', 'React Hooks', 'CSS'],
     link: 'https://ccbaxter84.github.io/To-Do-App-React/',
     gitHub: 'https://github.com/CCBaxter84/To-Do-App-React'
   },
