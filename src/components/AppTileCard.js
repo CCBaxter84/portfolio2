@@ -2,6 +2,11 @@ import React from 'react';
 import './AppTileCard.css';
 
 function AppTileCard(props) {
+  // Find midpoint of tools array
+  const { tools } = props.info;
+  const length = tools.length;
+  const midPoint = length % 2 === 0 ? length / 2 : length / 2 + 1;
+  // Render the tile card & two even bulleted lists of its tools to the screen
   return (
     <section class='title-card-container'>
       <article class='title-and-description'>
@@ -27,10 +32,10 @@ function AppTileCard(props) {
       </section>
       <article class='tools'>
         <ul>
-          {props.info.tools.slice(0, 3).map(tool => <li>{tool}</li>)}
+          {props.info.tools.slice(0, midPoint).map(tool => <li>{tool}</li>)}
         </ul>
-        {props.info.tools.length > 3 && <ul>
-          {props.info.tools.slice(3).map(tool => <li>{tool}</li>)}
+        {props.info.tools.length > 1 && <ul>
+          {props.info.tools.slice(midPoint).map(tool => <li>{tool}</li>)}
         </ul>}
       </article>
     </section>

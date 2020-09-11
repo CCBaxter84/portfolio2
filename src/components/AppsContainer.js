@@ -4,7 +4,9 @@ import './AppsContainer.css';
 import appsInfo from './appsInfo.js'
 
 function AppsContainer() {
+  // Get data for each application from appsInfo
   const { shoppingInfo, quizInfo, puppyInfo, toDoInfo, jeopardyInfo, rockInfo } = appsInfo;
+  // Render the title and each app's title card to the screen
   return (
     <main>
       <section class='title'>

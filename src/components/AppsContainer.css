@@ -1,7 +1,9 @@
 .title {
   display: flex;
   justify-content: center;
-  color: indigo;
+  color: midnightblue;
+  font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+  font-weight: bold;
 }
 
 .title > article {
@@ -14,5 +16,5 @@
   justify-content: space-around;
   align-items: center;
   margin: 20px 0;
-  color: indigo;
+  color: midnightblue;
 }
