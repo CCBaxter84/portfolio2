@@ -11,8 +11,8 @@ function AppsContainer() {
     <main>
       <section class='title'>
         <article>
-          <h1>My Applications</h1>
-          <p>Here's a snapshot of some of my best projects</p>
+          <h1>Self-taught Programmer with a Cybersecurity Background</h1>
+          <p>Here are snapshots of some of my best projects</p>
         </article>
       </section>
       <section class='apps-container'>

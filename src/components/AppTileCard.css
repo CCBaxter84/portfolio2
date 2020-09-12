@@ -50,6 +50,11 @@
   justify-content: center;
   align-items: center;
 }
+.title-card-front > img {
+  border-radius: 10px;
+  border: 1px solid indigo;
+  box-shadow: 0px 0px 10px indigo;
+}
 
 .title-card:hover .title-card-inner {
   transform: rotateY(180deg);
