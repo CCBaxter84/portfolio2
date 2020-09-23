@@ -1,5 +1,6 @@
 import React from 'react';
 import AppTileCard from './AppTileCard';
+import AboutMe from './AboutMe';
 import './AppsContainer.css';
 import appsInfo from './appsInfo.js'
 
@@ -9,13 +10,8 @@ function AppsContainer() {
   // Render the title and each app's title card to the screen
   return (
     <main>
-      <section class='title'>
-        <article>
-          <h1>Self-taught Programmer with a Cybersecurity Background</h1>
-          <p>Here are snapshots of some of my best projects</p>
-        </article>
-      </section>
-      <section class='apps-container'>
+      <AboutMe/>
+      <section className='apps-container'>
         <AppTileCard info={shoppingInfo}/>
         <AppTileCard info={quizInfo}/>
         <AppTileCard info={puppyInfo}/>
@@ -23,8 +19,7 @@ function AppsContainer() {
         <AppTileCard info={jeopardyInfo}/>
         <AppTileCard info={rockInfo}/>
       </section>
-  </main>
-
+    </main>
   );
 }
 
