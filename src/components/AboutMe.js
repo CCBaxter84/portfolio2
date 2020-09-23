@@ -21,13 +21,13 @@ function AboutMe() {
       <ContactMe/>
       <ToggleButtons/>
       <Switch>
-        <Route exact path='/portfolio'>
+        <Route exact path='/'>
           {short}
         </Route>
         <Route exact path='/short'>
           {short}
         </Route>
-        <Route path='/long'>
+        <Route exact path='/long'>
           {long}
         </Route>
       </Switch>
