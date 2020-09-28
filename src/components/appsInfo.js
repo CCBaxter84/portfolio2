@@ -4,8 +4,17 @@ import puppies from '../gifs/puppies.gif';
 import toDoApp from '../gifs/to-do-app.gif';
 import starWarsJeopardy from '../gifs/SWJeopardy.gif';
 import rockPaperScissors from '../gifs/rps.gif';
+import redOctober from '../gifs/red-october.gif';
 
 const appsInfo = {
+  redOctober: {
+    name: redOctober,
+    title: 'Hunt for Red October Game',
+    desc: 'React.js game with elements of Hangman, Minesweeper, and Battleship',
+    tools: ['React', 'React Hooks', 'CSS'],
+    link: 'https://ccbaxter84.github.io/red-october',
+    gitHub: 'https://github.com/CCBaxter84/red-october'
+  },
   shoppingInfo: {
     name: mernList,
     title: 'Shopping List',
