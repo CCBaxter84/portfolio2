@@ -5,6 +5,7 @@ import toDoApp from '../gifs/to-do-app.gif';
 import starWarsJeopardy from '../gifs/SWJeopardy.gif';
 import rockPaperScissors from '../gifs/rps.gif';
 import redOctober from '../gifs/red-october.gif';
+import starWarsIntro from '../gifs/star-wars-intro.gif';
 
 const appsInfo = {
   redOctober: {
@@ -30,6 +31,14 @@ const appsInfo = {
     tools: ['React', 'React Context', 'React Hooks', 'CSS'],
     link: 'https://ccbaxter84.github.io/US-History-Quiz-React/',
     gitHub: 'https://github.com/CCBaxter84/US-History-Quiz-React'
+  },
+  starWarsIntro: {
+    name: starWarsIntro,
+    title: 'Star Wars Intro Scroll',
+    desc: 'Star Wars Movie Intro replicated with only HTML and CSS',
+    tools: ['HTML', 'CSS'],
+    link: 'https://ccbaxter84.github.io/star-wars-intro/',
+    gitHub: 'https://github.com/CCBaxter84/star-wars-intro'
   },
   puppyInfo: {
     name: puppies,
