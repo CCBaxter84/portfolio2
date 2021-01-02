@@ -18,7 +18,7 @@ function ToggleButtons() {
   };
   return (
     <section className='buttons'>
-        <Link to='/short'>
+        <Link to='/'>
           <button value='short' onClick={handleClick} className={shortSelected ? 'selected' : undefined}>Short</button>
         </Link>
         <Link to='/long'>

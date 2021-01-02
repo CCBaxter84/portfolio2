@@ -24,9 +24,6 @@ function AboutMe() {
         <Route exact path='/'>
           {short}
         </Route>
-        <Route exact path='/short'>
-          {short}
-        </Route>
         <Route exact path='/long'>
           {long}
         </Route>
