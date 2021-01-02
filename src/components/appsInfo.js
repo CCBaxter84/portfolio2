@@ -6,29 +6,30 @@ import starWarsJeopardy from '../gifs/SWJeopardy.gif';
 import rockPaperScissors from '../gifs/rps.gif';
 import redOctober from '../gifs/red-october.gif';
 import starWarsIntro from '../gifs/star-wars-intro.gif';
+import mediationWorks from '../gifs/MW.gif';
 
 const appsInfo = {
   redOctober: {
     name: redOctober,
     title: 'Hunt for Red October Game',
-    desc: 'React.js game with elements of Hangman, Minesweeper, and Battleship',
-    tools: ['React', 'React Hooks', 'CSS'],
+    desc: 'Game with elements of Hangman, Minesweeper, and Battleship',
+    tools: ['React', 'React Hooks', 'JavaScript', 'CSS'],
     link: 'https://ccbaxter84.github.io/red-october',
     gitHub: 'https://github.com/CCBaxter84/red-october'
   },
   shoppingInfo: {
     name: mernList,
     title: 'Shopping List',
-    desc: 'Full-stack React.js web app using Context for global state management',
-    tools: ['React', 'React Context', 'Express.js', 'Node.js', 'MongoDB', 'Reactstrap'],
+    desc: 'Full-stack React web app using Context for global state management',
+    tools: ['React', 'React Context', 'Express', 'Node.js', 'MongoDB', 'Reactstrap'],
     link: 'https://mern-list-global-state.herokuapp.com/',
     gitHub: 'https://github.com/CCBaxter84/MERN_Shopping_List'
   },
   quizInfo: {
     name: historyQuiz,
     title: 'History Quiz',
-    desc: 'Front-end React.js multiple choice quiz',
-    tools: ['React', 'React Context', 'React Hooks', 'CSS'],
+    desc: 'Multiple Choice Quiz App',
+    tools: ['React', 'React Hooks', 'JavaScript', 'CSS'],
     link: 'https://ccbaxter84.github.io/US-History-Quiz-React/',
     gitHub: 'https://github.com/CCBaxter84/US-History-Quiz-React'
   },
@@ -43,23 +44,23 @@ const appsInfo = {
   puppyInfo: {
     name: puppies,
     title: 'Puppy Photo Collage',
-    desc: 'Front-end React.js photo collage using React Router',
-    tools: ['React', 'React Router', 'CSS'],
+    desc: 'Dynamic Photo Collage using React Router',
+    tools: ['React', 'React Router', 'JavaScript', 'CSS'],
     link: 'https://ccbaxter84.github.io/Puppies---React-Router/',
     gitHub: 'https://github.com/CCBaxter84/Puppies---React-Router'
   },
   toDoInfo: {
     name: toDoApp,
     title: 'To Do List',
-    desc: 'Front-end React.js productivity web app',
-    tools: ['React', 'React Hooks', 'CSS'],
+    desc: 'Checklist Productivity Web App',
+    tools: ['React', 'React Hooks', 'JavaScript', 'CSS'],
     link: 'https://ccbaxter84.github.io/To-Do-App-React/',
     gitHub: 'https://github.com/CCBaxter84/To-Do-App-React'
   },
   jeopardyInfo: {
     name: starWarsJeopardy,
     title: 'Star Wars Jeopardy!',
-    desc: 'Two player variation of Jeopardy! game show with JavaScript',
+    desc: 'Two player version of Jeopardy! with Star Wars categories and a hidden Daily Double',
     tools: ['JavaScript', 'HTML', 'CSS'],
     link: 'https://ccbaxter84.github.io/Star-Wars-Jeopardy-JavaScript/',
     gitHub: 'https://github.com/CCBaxter84/Star-Wars-Jeopardy-JavaScript'
@@ -67,10 +68,18 @@ const appsInfo = {
   rockInfo: {
     name: rockPaperScissors,
     title: 'Paper Rock Scissors',
-    desc: 'Player vs computer game in JavaScript',
+    desc: 'Single Player vs Computer Game',
     tools: ['JavaScript', 'HTML', 'CSS'],
     link: 'https://ccbaxter84.github.io/Rock-Paper-Scissors-JavaScript/',
     gitHub: 'https://github.com/CCBaxter84/Rock-Paper-Scissors-JavaScript'
+  },
+  mediationInfo: {
+    name: mediationWorks,
+    title: 'Mediation Works 2',
+    desc: 'Mediation Consulting Business Website for a local Small Business',
+    tools: ['React', 'Express', 'Node', 'TypeScript', 'CSS Flexbox', 'MongoDB'],
+    link: 'https://safe-basin-63878.herokuapp.com/',
+    gitHub: 'https://github.com/CCBaxter84/MediationWorks'
   }
 }
 
