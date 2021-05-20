@@ -1,0 +1,34 @@
+{
+  "files": {
+    "main.css": "/static/css/main.07a5669e.chunk.css",
+    "main.js": "/static/js/main.07c97e85.chunk.js",
+    "main.js.map": "/static/js/main.07c97e85.chunk.js.map",
+    "runtime-main.js": "/static/js/runtime-main.d2b1bba4.js",
+    "runtime-main.js.map": "/static/js/runtime-main.d2b1bba4.js.map",
+    "static/js/2.e74a2c9c.chunk.js": "/static/js/2.e74a2c9c.chunk.js",
+    "static/js/2.e74a2c9c.chunk.js.map": "/static/js/2.e74a2c9c.chunk.js.map",
+    "index.html": "/index.html",
+    "precache-manifest.8f69e57c0ce4af1bf36be651d8c95951.js": "/precache-manifest.8f69e57c0ce4af1bf36be651d8c95951.js",
+    "service-worker.js": "/service-worker.js",
+    "static/css/main.07a5669e.chunk.css.map": "/static/css/main.07a5669e.chunk.css.map",
+    "static/js/2.e74a2c9c.chunk.js.LICENSE.txt": "/static/js/2.e74a2c9c.chunk.js.LICENSE.txt",
+    "static/media/MW.gif": "/static/media/MW.adec840d.gif",
+    "static/media/SWJeopardy.gif": "/static/media/SWJeopardy.8b37b3d3.gif",
+    "static/media/Header.css": "/static/media/glenwood4.bfaf2620.jpg",
+    "static/media/history-quiz.gif": "/static/media/history-quiz.9ca3fd7c.gif",
+    "static/media/mern-shopping-list.gif": "/static/media/mern-shopping-list.fc39f5c4.gif",
+    "static/media/puppies.gif": "/static/media/puppies.a13ac5c0.gif",
+    "static/media/red-october.gif": "/static/media/red-october.bcd09c2c.gif",
+    "static/media/rps.gif": "/static/media/rps.b62414e8.gif",
+    "static/media/star-wars-intro.gif": "/static/media/star-wars-intro.9187372d.gif",
+    "static/media/sw-lib.gif": "/static/media/sw-lib.7a81e5d4.gif",
+    "static/media/to-do-app.gif": "/static/media/to-do-app.ef601eeb.gif",
+    "static/media/weather.gif": "/static/media/weather.34fc52a5.gif"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.d2b1bba4.js",
+    "static/js/2.e74a2c9c.chunk.js",
+    "static/css/main.07a5669e.chunk.css",
+    "static/js/main.07c97e85.chunk.js"
+  ]
+}
